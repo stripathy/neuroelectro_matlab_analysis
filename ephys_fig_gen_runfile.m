@@ -141,7 +141,7 @@ for j = 1:6
     metadataModelTermsCount = length(bestModelStruct{ephysInd}.model{1}.CoefficientNames);
     termsVec = zeros(1, metadataModelTermsCount);
     termsVec(neuronOnlyModelTermsCount+1:metadataModelTermsCount) = 1;
-    pValueMetadataTerms(j) = coefTest(bestModelStruct{ephysInd}.model{1},termsVec);
+    %pValueMetadataTerms(j) = coefTest(bestModelStruct{ephysInd}.model{1},termsVec);
 end
 
 barColors = ['k', 'r'];
