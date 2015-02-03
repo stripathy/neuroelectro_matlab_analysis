@@ -1,5 +1,4 @@
 Author: Shreejoy Tripathy (stripat3@gmail.com)
-Last Modified: 2/03/2015
 
 Description: Data analysis scripts for processing and analyzing biophysical data from NeuroElectro (www.neuroelectro.org) based on summarized spreadsheets output by the NeuroElectro API (http://www.neuroelectro.org/api/docs/)
 
